@@ -1,0 +1,16 @@
+n = int(input("Enter a number: "))
+
+if n>100 and n<1000:
+  print('the number is between 100 and 1000')
+elif n>1000 and n<2000:
+  print('the number is between 1000 and 2000')
+else:
+  print('it is not near 1000 nor 2000')
+  
+  
+def near_thousand(n):
+      return ((abs(1000 - n) <= 100) or (abs(2000 - n) <= 100))
+print(near_thousand(1000))
+print(near_thousand(900))
+print(near_thousand(800))   
+print(near_thousand(2200))
