@@ -1,0 +1,6 @@
+import calendar as cd
+
+x=int(input("Choose Year (number):"))
+y=int(input("Choose Month (number):"))
+
+print(cd.month(x,y))
