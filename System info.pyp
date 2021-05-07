@@ -31,4 +31,5 @@ print("IP Address: ", socket.gethostbyname(socket.gethostname()))
 endline()
 print('Terminal size: ',os.get_terminal_size)
 endline()
+print(os.path.abspath('test.txt'))
 
