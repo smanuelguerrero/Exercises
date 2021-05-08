@@ -41,5 +41,5 @@ endline()
 #to get the size (bytes)
 x='something'
 print(sys.getsizeof(x))
-
+print(os.path.getsize(x))
 endline()
