@@ -6,6 +6,8 @@ import socket
 import time
 import datetime
 
+# use for example dir(os) to see the directory (what one can use)
+
 def endline():
   print('*--------------------*')
   
@@ -32,4 +34,6 @@ endline()
 print('Terminal size: ',os.get_terminal_size)
 endline()
 print(os.path.abspath('test.txt'))
+endline()
+print(sys.copyright)
 
