@@ -37,7 +37,10 @@ print(os.path.abspath('test.txt'))
 endline()
 print(sys.copyright)
 endline()
-
+print(time.ctime()
+endline()
+      
+      
 #to get the size (bytes)
 x='something'
 print(sys.getsizeof(x))
