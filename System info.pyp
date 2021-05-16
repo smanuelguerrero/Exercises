@@ -46,3 +46,7 @@ x='something'
 print(sys.getsizeof(x))
 print(os.path.getsize(x))
 endline()
+
+print(sys.float_info)
+print(sys.int_info)
+print(sys.maxsize)
